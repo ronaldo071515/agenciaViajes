@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet urna sapien. Nulla aliquam odio ante, non condimentum neque bibendum at. Fusce nec rhoncus sapien, et vulputate turpis. Donec ex dui, dapibus ac varius vitae, feugiat at risus. Nunc ac nisi pretium, sagittis leo nec, hendrerit tellus. In consectetur blandit eros nec facilisis. Duis malesuada semper pulvinar.
+
+                p Morbi at posuere sem. Maecenas at pulvinar tellus. Vestibulum ut arcu in mi ultrices imperdiet. Sed congue velit ac lacus ornare, eget tristique dui ultricies. Vestibulum gravida felis sit amet magna elementum viverra. Cras urna elit, eleifend eu tempor at, gravida ac neque. Aenean ornare nisl malesuada suscipit elementum.
+
+                p Maecenas urna velit, fermentum nec mollis eget, iaculis nec ante. Sed maximus nisl at elit porttitor gravida. Aenean pellentesque dui eu risus placerat sollicitudin. Ut a venenatis dui, sed mollis risus. Pellentesque mi sem, posuere eget odio eu, bibendum venenatis magna. Praesent eget ligula vel urna blandit porta. Vestibulum euismod dictum nisl, id lobortis ante egestas non.
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="Icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Praesent eget ligula vel urna blandit porta. Vestibulum euismod dictum nisl, id lobortis ante egestas non.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="Icono destino", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Praesent eget ligula vel urna blandit porta. Vestibulum euismod dictum nisl, id lobortis ante egestas non.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="Icono precio", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Praesent eget ligula vel urna blandit porta. Vestibulum euismod dictum nisl, id lobortis ante egestas non.
